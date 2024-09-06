@@ -9,6 +9,7 @@
 body {
     background: rgb(205,205,205);
     background: linear-gradient(90deg, rgba(205,205,205,1) 0%, rgba(226,226,226,1) 48%, rgba(205,205,205,1) 100%);
+    margin: 0px;
   }
 
 .cat {
@@ -102,9 +103,10 @@ body {
 }
 
 .main__content {
-    top: 150px;
+    top: 0px;
     font-size: 200px;
     text-align: center;
+    position: relative;
 }
 
 .navbar {
@@ -177,4 +179,18 @@ body {
 
 .main__container {
     color:#fdfdfd
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    vertical-align: bottom;
 }
